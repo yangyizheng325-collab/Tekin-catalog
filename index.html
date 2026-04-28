@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tekin - Product Catalogues</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #0a1628; color: #fff; min-height: 100vh; }
+  header { background: linear-gradient(135deg, #1a3a5c, #0d2137); padding: 60px 20px; text-align: center; border-bottom: 3px solid #c8a84b; }
+  header h1 { font-size: 2.8em; color: #c8a84b; letter-spacing: 4px; margin-bottom: 8px; }
+  header p { font-size: 1.1em; color: #8aa8c8; letter-spacing: 2px; }
+  .subtitle { font-size: 0.9em; color: #6a8aaa; margin-top: 4px; }
+  .container { max-width: 900px; margin: 0 auto; padding: 50px 20px; }
+  h2 { color: #c8a84b; font-size: 1.3em; margin-bottom: 24px; letter-spacing: 2px; border-left: 4px solid #c8a84b; padding-left: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+  .card { background: #122040; border: 1px solid #1e3a5f; border-radius: 10px; padding: 24px 20px; text-decoration: none; color: #fff; transition: all 0.3s; display: block; }
+  .card:hover { background: #1a3a6a; border-color: #c8a84b; transform: translateY(-3px); box-shadow: 0 8px 24px rgba(200,168,75,0.15); }
+  .card .icon { font-size: 2.4em; margin-bottom: 12px; }
+  .card .title { font-size: 1.05em; font-weight: 600; margin-bottom: 6px; line-height: 1.4; }
+  .card .desc { font-size: 0.82em; color: #6a8aaa; }
+  .card .arrow { margin-top: 12px; color: #c8a84b; font-size: 0.9em; }
+  footer { text-align: center; padding: 30px; color: #4a6a8a; font-size: 0.8em; border-top: 1px solid #1e3a5f; margin-top: 40px; }
+  .note { background: #122040; border: 1px solid #c8a84b44; border-radius: 8px; padding: 16px 20px; margin-bottom: 30px; color: #8aa8c8; font-size: 0.88em; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>TEKIN</h1>
+  <p>Product Catalogues</p>
+  <p class="subtitle">砂轮修整工具 · Grinding Wheel Dressers</p>
+</header>
+
+<div class="container">
+  <div class="note">📥 Select a catalogue below to download the PDF</div>
+
+  <h2>AUTOMOTIVE &amp; AIRCRAFT</h2>
+  <div class="grid">
+    <a class="card" href="Aircraft tool.pdf" download>
+      <div class="icon">✈️</div>
+      <div class="title">Aircraft Tool</div>
+      <div class="desc">航空工具 · 俄/英</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+    <a class="card" href="Automotive tools.pdf" download>
+      <div class="icon">🚗</div>
+      <div class="title">Automotive Tools</div>
+      <div class="desc">汽车工具 · 俄/英</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+  </div>
+
+  <h2 style="margin-top:36px;">MILLING &amp; CUTTING</h2>
+  <div class="grid">
+    <a class="card" href="MF90 milling cutter--2021 -EN.pdf" download>
+      <div class="icon">🔧</div>
+      <div class="title">MF90 Milling Cutter</div>
+      <div class="desc">MF90 铣刀 · 英文</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+    <a class="card" href="Standard milling tool.pdf" download>
+      <div class="icon">🛠️</div>
+      <div class="title">Standard Milling Tool</div>
+      <div class="desc">标准铣刀 · 俄/英</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+  </div>
+
+  <h2 style="margin-top:36px;">INSERTS &amp; TOOL HOLDERS</h2>
+  <div class="grid">
+    <a class="card" href="Standard inserts.pdf" download>
+      <div class="icon">🔩</div>
+      <div class="title">Standard Inserts</div>
+      <div class="desc">标准刀片 · 俄/英</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+    <a class="card" href="Tool holder.pdf" download>
+      <div class="icon">📎</div>
+      <div class="title">Tool Holder</div>
+      <div class="desc">刀柄 · 俄/英</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+  </div>
+
+  <h2 style="margin-top:36px;">RUNOUT PRESETTER</h2>
+  <div class="grid">
+    <a class="card" href="Runout presetter ZTS-10015-EN.pdf" download>
+      <div class="icon">📏</div>
+      <div class="title">ZTS-10015 Runout Presetter</div>
+      <div class="desc">跳动仪 · 英文</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+    <a class="card" href="Runout presetter ZTS-6013-EN.pdf" download>
+      <div class="icon">📐</div>
+      <div class="title">ZTS-6013 Runout Presetter</div>
+      <div class="desc">跳动仪 · 英文</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+  </div>
+
+  <h2 style="margin-top:36px;">OTHER</h2>
+  <div class="grid">
+    <a class="card" href="Honing tools.pdf" download>
+      <div class="icon">⚙️</div>
+      <div class="title">Honing Tools</div>
+      <div class="desc">珩磨工具 · 俄/英</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+    <a class="card" href="Tekin catalogue, 特金英俄-2025.pdf" download>
+      <div class="icon">📚</div>
+      <div class="title">Tekin Catalogue</div>
+      <div class="desc">特金综合目录 · 英/俄</div>
+      <div class="arrow">↓ Download PDF →</div>
+    </a>
+  </div>
+</div>
+
+<footer>
+  Tekin Precision Tools · 郑钻精密工具<br>
+  www.56metal.com
+</footer>
+
+</body>
+</html>
